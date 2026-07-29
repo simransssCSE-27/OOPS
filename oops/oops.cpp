@@ -1,36 +1,22 @@
-//Simran yadav
-// 2503201001161
-
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-class students{
-    private:
-    // data member (attributes)
-    int rollno;
-    string name;
-    float marks;
 
-    public:
-    void input(){
-        cout<<"enter roll no";
+class student 
+{ public :
+  string name ;
+    int age , rollno ;
+    int grade ;
+   
+};
 
-        cin>> roll no;
-        cin.ignore();// ignore new line character
+int main()
+{
+student s1 ;
+s1.name ="simran" ;
+s1.age = 20 ;
+s1.rollno = 101 ;
+s1.grade = 90 ;
+  
+cout<<s1.grade<<" " ;
 
-        cout<<"enter your name";
-         getline(cin,name); 
-
-         
-
-    void display(){
-    student s1;
-    s1.input;
-    s1.display();
-
-    }
-        
-    }
-        
-    
-    }
 }
