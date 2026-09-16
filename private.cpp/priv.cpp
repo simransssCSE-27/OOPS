@@ -24,3 +24,4 @@ class student{
     cin>>age;
     s1.setdata(name,age);
  }
+ 
